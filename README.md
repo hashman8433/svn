@@ -9,6 +9,7 @@
 # 3.configure your svnserve.conf
 
 # 4.restart svn service
-  kill -9 PID \n
+  kill -9 PID 
+  
   svnserve -d -r /data/svn/
   
